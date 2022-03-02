@@ -326,7 +326,10 @@ class _DetailPageState extends State<DetailPage> {
                             child: detailController.isFavorite.value
                                 ? const Icon(Icons.favorite,
                                     color: Colors.white)
-                                : const Icon(Icons.favorite_border, color: Colors.white,),
+                                : const Icon(
+                                    Icons.favorite_border,
+                                    color: Colors.white,
+                                  ),
                           ),
                         )),
                     const SizedBox(
@@ -338,10 +341,10 @@ class _DetailPageState extends State<DetailPage> {
                     )
                   ],
                 ))
-            //))
           ],
         ),
       ),
     );
   }
 }
+//note
